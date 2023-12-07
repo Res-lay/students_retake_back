@@ -39,7 +39,7 @@ public class UserController {
         String originalFileName = file.getOriginalFilename();
         Path path = Paths.get("src/main/resources/static/images", originalFileName);
         Files.copy(file.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
-        user.setPhotoUrl("http://localhost:8080/static/images/" + originalFileName);
+        user.setPhotoUrl("https://students-retake-back.onrender.com/static/images/" + originalFileName);
         userService.replaceUser(user, user.getId());
 
         return ResponseEntity.ok().build();
