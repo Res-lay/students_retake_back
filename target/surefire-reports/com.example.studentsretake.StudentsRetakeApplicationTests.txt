@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.studentsretake.StudentsRetakeApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.67 s - in com.example.studentsretake.StudentsRetakeApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.174 s - in com.example.studentsretake.StudentsRetakeApplicationTests
